@@ -14,6 +14,7 @@
 		00ED272A21D324E7009D4E5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ED272821D324E7009D4E5C /* LaunchScreen.storyboard */; };
 		00ED273521D324E7009D4E5C /* Touch_IDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED273421D324E7009D4E5C /* Touch_IDTests.swift */; };
 		00ED274021D324E7009D4E5C /* Touch_IDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ED273F21D324E7009D4E5C /* Touch_IDUITests.swift */; };
+		00ED274F21D32837009D4E5C /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ED274E21D32837009D4E5C /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		00ED273B21D324E7009D4E5C /* Touch IDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Touch IDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00ED273F21D324E7009D4E5C /* Touch_IDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touch_IDUITests.swift; sourceTree = "<group>"; };
 		00ED274121D324E7009D4E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00ED274E21D32837009D4E5C /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00ED274F21D32837009D4E5C /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				00ED273321D324E7009D4E5C /* Touch IDTests */,
 				00ED273E21D324E7009D4E5C /* Touch IDUITests */,
 				00ED271D21D324E5009D4E5C /* Products */,
+				00ED274D21D32837009D4E5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				00ED274121D324E7009D4E5C /* Info.plist */,
 			);
 			path = "Touch IDUITests";
+			sourceTree = "<group>";
+		};
+		00ED274D21D32837009D4E5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00ED274E21D32837009D4E5C /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54VN36GA4S;
 				INFOPLIST_FILE = "Touch ID/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54VN36GA4S;
 				INFOPLIST_FILE = "Touch ID/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
